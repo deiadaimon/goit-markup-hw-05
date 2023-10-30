@@ -398,6 +398,7 @@ img {
   border-radius: 4px;
   border: 1px solid var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: var(--white);
   font-size: 12px;
   font-style: normal;
@@ -415,14 +416,15 @@ img {
   justify-content: center;
   align-items: center;
   color: var(--white);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 .submit {
   fill: var(--white);
+  margin-left: 16px;
 }
