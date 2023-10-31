@@ -442,10 +442,10 @@ input::placeholder {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-window {
-  /* position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1); */
+  transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
   margin-top: 80px;
