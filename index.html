@@ -596,6 +596,7 @@
           <div class="input-wrapper comment">
             <label class="modal-label" for="user-comment">Comment</label>
             <textarea
+              class="modal-comment"
               name="user-comment"
               id="user-comment"
               cols="30"
@@ -603,8 +604,21 @@
               placeholder="Text input"
             ></textarea>
           </div>
-          <div>
-            <!-- checkbox and privacy policy acception -->
+          <div class="accept-wrapper">
+            <input
+              class="accept-input visually-hidden"
+              value="true"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+            />
+            <label class="accept-text" for="user-privacy"
+              ><span class="accept-icon-wrapper"
+                ><svg class="accept-icon" width="10" height="8">
+                  <use href=""></use></svg></span
+              >I accept the terms and conditions of the
+              <a class="accept-link">Privacy Policy</a></label
+            >
           </div>
           <button class="modal-btn" type="submit">Send</button>
         </form>
